@@ -7,6 +7,7 @@ import Carousel from '@/components/Carousel'
 import Pagination from '@/components/Pagination.vue'
 // 图片懒加载工具引入
 import VueLazyload from 'vue-lazyload'
+
 import '@/mock/mockServer'
 import "swiper/css/swiper.css"
 import * as API from '@/api'
