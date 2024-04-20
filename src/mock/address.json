@@ -1,0 +1,23 @@
+[
+    {
+        "consignee": "小张",
+        "fullAddress": "广东省广州市白云区江高镇大田村学苑路1号",
+        "id": 1,
+        "isDefault": "1",
+        "phoneNum": "13433555908"
+    },
+    {
+        "consignee": "小张",
+        "fullAddress": "广东省惠州市惠阳区淡水镇教育路1号",
+        "id": 2,
+        "isDefault": "0",
+        "phoneNum": "13438229501"
+    },
+    {
+        "consignee": "小张",
+        "fullAddress": "广东省深圳市龙华区龙华街道1号",
+        "id": 3,
+        "isDefault": "0",
+        "phoneNum": "13439865938"
+    }
+]
