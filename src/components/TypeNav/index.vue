@@ -11,7 +11,6 @@
                 <h3 @mouseenter="changeIndex(index)">
                   <a :data-category-name="c1.categoryName" :data-category1-id="c1.categoryId">{{ c1.categoryName }}</a>
                 </h3>
-                <!-- <div class="item-list clearfix" :style="{ display: currentIndex === index ? 'block' : 'none' }"> -->
                 <div class="item-list clearfix" v-show="currentIndex === index">
                   <div class="subitem" v-for="c2 in c1.categoryChild" :key="c2.categoryId">
                     <dl class="fore">
@@ -65,7 +64,7 @@ export default {
   },
   computed: {
     ...mapState({
-      categoryList: state => state.home.categoryList.slice(0, 16)
+      categoryList: state => state.home.categoryList.slice(0, 15)
     })
   },
   methods: {
